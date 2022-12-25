@@ -1,0 +1,183 @@
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.contact-category hr {
+	width: 40.5%;
+	}   
+   body {
+        font-size: 15px;
+    }
+}
+
+
+/* Portrait tablets and small desktops */ 
+@media  (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+    .portfolio-item {
+    width: 45%;
+	}
+	.portfolio-item-bill {
+    width: 45%;
+	}
+	.heading p {
+    line-height: 30px;
+	margin-top: 30px;
+	}
+	.about-content {
+    text-align: left;
+	}
+	.heading h3{
+	margin-top: 3rem;
+	}
+	.contact-details .contact-category .message h6 {
+	line-height: 22px;
+	margin-bottom: 9px;
+	}
+	.contact-category hr {
+	width: 52.75%;
+	}  
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    html {
+        font-size: 75%;
+    }
+	.home-details .home-title h1 {
+    font-size: 35px;
+	}
+	.portfolio-item {
+    width: 45%;
+	}
+	.portfolio-item-bill {
+    width: 45%;
+	}
+	.contact-details .contact-category .mail h2 {
+	font-size: 28px;
+	line-height: 50px;
+	}
+	.contact-details .contact-category .phone h5 {
+	font-size: 28px;
+	line-height: 50px;
+	}
+	.contact-details .contact-category .message h6 {
+	font-size: 28px;
+	line-height: 1px;
+	margin-bottom: 22px;
+	}
+	.contact-details .contact-category h4{
+	font-size:36px;
+	line-height: 10px;
+	}
+	.contact-details .contact-category .social a {
+	margin-top: 14px;	
+	}
+	.heading p {
+    line-height: 30px;
+    margin-top: 30px;
+	}
+	.about-content {
+    text-align: left;
+	}
+	.heading h3{
+	margin-top: 3rem;
+    }
+	.navbar-default {
+    background-color: rgba(71, 71, 71, 0.9);
+	}
+	.navbar-default .navbar-nav li a {
+	font-family:'euclid_flexregular', 'nexa_boldregular';
+	font-size:20px;
+	padding-top:21px;
+	padding-bottom:21px;
+	letter-spacing:4px;
+	}
+	.navbar-nav li{
+	display:block;
+	}
+	.portfolio .title h3{
+	font-size:50px;
+	}
+	.copyright p {
+    font-size: 12px;
+	}
+	.contact-category hr {
+	display: none;
+	width: 50.75%;
+	}   
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    html {
+        font-size: 65%;
+    }
+	.home-details .home-title h1 {
+    font-size:20px;
+	}
+	.scroll-down h5 {
+    font-size: 13px;
+	}
+	.portfolio-item {
+    width: 99%;
+	}
+	.portfolio-item-bill {
+    width: 99%;
+	}
+   .contact-details .contact-category .mail h2 {
+    font-size: 24px;
+	line-height: 20px;
+	}
+	.contact-details .contact-category .phone h5 {
+    font-size: 24px;
+	line-height: 20px;
+	}
+	.contact-details .contact-category .message h6 {
+	font-size: 24px;
+	line-height: 20px;
+	margin-bottom: 9px;
+	}
+	.contact-details .contact-category h4{
+	font-size:28px;
+	font-family:'nexa_boldregular';
+	margin-top: 50px;
+	}
+	.contact-details .contact-category .social a {
+    font-size: 25px;
+    height: 65px;
+    width: 65px;
+	margin: 3px;
+    line-height: 67px;
+	margin-top: 0px;
+	}
+	.contact-details .contact-category .mail-icons a {
+	font-size: 25px;
+    height: 65px;
+    width: 65px;
+	margin: 3px;
+    line-height: 66px;	
+	}
+	.contact-details .contact-category .phone-icons a {
+	font-size: 25px;
+    height: 65px;
+    width: 65px;
+	margin: 3px;
+    line-height: 68px;	
+	}
+	.copyright p {
+    font-size: 9px;
+	}
+	.contact-category hr {
+	display: inline-block;
+	width: 95.5%;
+	margin-right: 2px;
+	}  
+}
+
+@media (max-width: 320px) {
+
+    html {
+        font-size: 60.5%;
+    }
+}
